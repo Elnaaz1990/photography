@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .body {
+    direction: rtl;
+  }
+  .header{
+    padding-top: 30px;
+    padding-bottom: 27px;
+    padding-left: 45px;
+    
+  }
+  .header-logo{
+    cursor: pointer;
+  } 
+  .header-icon{
+    cursor: pointer;
+  }
+  .album{
+    position: relative;
+    bottom: 0;
+    right: 0;
+    top: 0;
+
+  }
+  .album-img{
+    position: relative;
+  }
+
+  .album-img:hover .album-text{
+    top: 0;
+    
+  }
+  .album-img:hover .album-text div {
+   top:0
+  }
+ 
+.album-text {
+  background-color: black;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  color: #fff;
+  transition: all 0.5s;
+ font-size: 25px;
+
+}
+.album-text div {
+  position: absolute;
+  top:100%;
+  transition: all 2s;
+}
+
+
+.intro-point{
+  font-weight: 700;
+ 
+
+}
+.intro-point-part{
+  border-bottom: 3px solid black;
+  width: 16%;
+
+}
+.card-b-icon{
+  background-color:white;
+  padding: 40px 0;
+  position: absolute; 
+  width: 110px;
+  bottom: 0;
+  right: 0;
+  z-index: 9;
+  text-align: center;
+}
+    
